@@ -1,0 +1,38 @@
+/* styles.css */
+@font-face {
+    font-family: 'Waterfall';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/waterfall/v3/MCoRzAfo293fACdFKcwo3bv9.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+.container{
+    
+}
+
+.title {
+    background: rgba(60, 56, 51, 0.2); /* Semi-transparent background for glassmorphic effect */
+    border-radius: 10px; /* Rounded corners */
+    padding: 5px 10px;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(112, 10, 229);
+    backdrop-filter: blur(10px); /* Blurring effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: opacity 0.2s ease-in-out; /* Smooth transition for appearance */
+    opacity: 0; /* Initially hidden for animation */
+    animation: appear 0.2s forwards; /* Animation to appear */
+    font-family: 'Courier New';
+}
+
+@keyframes appear {
+    to {
+        opacity: 1; /* End state: fully visible */
+    }
+}
+
+.content {
+    display: flex;
+    gap: 50px;
+}

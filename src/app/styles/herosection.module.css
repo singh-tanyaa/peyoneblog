@@ -1,0 +1,118 @@
+/* heroStyles.css */
+
+.main_section {
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+}
+
+.hero_content h1 {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.hero_content p {
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.blogbtn {
+    background-color: #e50914;
+    color: #fff;
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.blogbtn:hover {
+    background-color: #ff5252;
+}
+.hero_image {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero_image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+     margin-top: 0; /* Adjust as needed */
+     margin-right: -2rem; 
+         }
+
+.hero_image img:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+/* .main_section {
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    padding: 5rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid_two_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.hero_content h1 {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.hero_content p {
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.hero_image {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero_image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+     margin-top: 0; /* Adjust as needed */
+     /*margin-right: -2rem; /* Adjust as needed 
+}
+
+.hero_image img:hover {
+    transform: scale(1.05);
+}
+
+.blogbtn {
+    background-color: #e50914;
+    color: #fff;
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.blogbtn:hover {
+    background-color: #ff5252;
+} */
